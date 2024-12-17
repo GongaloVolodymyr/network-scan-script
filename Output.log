@@ -1,0 +1,17 @@
+Network Information Collection Script
+------------------------------------
+[+] Running nmap to scan the local network...
+[+] Running tcpdump to capture 10 packets...
+tcpdump finished capturing packets. File saved as packets.pcap
+[+] Displaying a summary of tcpdump capture:
+09:34:49.035115 IP 192.168.1.4.56756 > 149.154.167.50.443: Flags [P.], seq 3295962517:3295962702, ack 4201092768, win 65535, options [nop,nop,TS val 3898479467 ecr 3097950542], length 185
+09:34:49.085366 IP 149.154.167.50.443 > 192.168.1.4.56756: Flags [P.], seq 1:5, ack 185, win 32768, options [nop,nop,TS val 3097951137 ecr 3898479467], length 4
+09:34:49.085529 IP 192.168.1.4.56756 > 149.154.167.50.443: Flags [.], ack 5, win 65535, options [nop,nop,TS val 3898479518 ecr 3097951137], length 0
+09:34:49.091410 IP 149.154.167.50.443 > 192.168.1.4.56756: Flags [P.], seq 5:126, ack 185, win 32768, options [nop,nop,TS val 3097951143 ecr 3898479467], length 121
+09:34:49.091678 IP 192.168.1.4.56756 > 149.154.167.50.443: Flags [.], ack 126, win 65528, options [nop,nop,TS val 3898479524 ecr 3097951143], length 0
+09:34:49.499241 IP 108.157.98.92.443 > 192.168.1.4.56815: Flags [P.], seq 2042597907:2042597931, ack 3621189208, win 173, options [nop,nop,TS val 4226614954 ecr 2661334358], length 24
+09:34:49.499534 IP 192.168.1.4.56815 > 108.157.98.92.443: Flags [.], ack 24, win 2048, options [nop,nop,TS val 2661340589 ecr 4226614954], length 0
+09:34:49.499998 IP 192.168.1.4.56815 > 108.157.98.92.443: Flags [P.], seq 1:29, ack 24, win 2048, options [nop,nop,TS val 2661340589 ecr 4226614954], length 28
+09:34:49.514971 IP 108.157.98.92.443 > 192.168.1.4.56815: Flags [.], ack 29, win 173, options [nop,nop,TS val 4226615069 ecr 2661340589], length 0
+09:34:49.533674 IP 192.168.1.4.58242 > 51.8.207.171.443: Flags [R.], seq 2605740693, ack 3990291900, win 2047, length 0
+[+] Scan completed. Results are saved in Output.log
